@@ -2,6 +2,6 @@
 
 This is the first Flutter project I uploaded here.
 
-# Infromation
+# Information
 
-This is an api based weather application
+This is an api based weather application.
