@@ -50,7 +50,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('images/city_background.jpg'),
+                image: AssetImage('images/city_background-min.jpg'),
                 fit: BoxFit.cover),
           ),
           child: Center(

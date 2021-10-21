@@ -16,7 +16,7 @@ class SearchScreen extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage("images/location_background.jpg"),
+          image: AssetImage("images/location_background-min.jpg"),
           fit: BoxFit.cover,
         ),
       ),

@@ -168,6 +168,8 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
+
+    
     return SafeArea(
       child: Scaffold(
         resizeToAvoidBottomInset: false,
@@ -203,8 +205,8 @@ class _MainScreenState extends State<MainScreen> {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image:
-                  AssetImage(isNight() ? 'images/night.jpg' : 'images/day.jpg'),
+              image: AssetImage(
+                  isNight() ? 'images/night-min.jpg' : 'images/day-min.jpg'),
               fit: BoxFit.cover,
             ),
           ),
